@@ -10,6 +10,8 @@ namespace Goudkoorts
     {
         static void Main(string[] args)
         {
+            Controller c = new Controller();
+            c.Start();
         }
     }
 }
