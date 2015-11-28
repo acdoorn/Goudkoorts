@@ -8,6 +8,6 @@ namespace Goudkoorts
 {
     enum Direction
     {
-        left, right, up, down;
+        left, right, up, down
     }
 }
