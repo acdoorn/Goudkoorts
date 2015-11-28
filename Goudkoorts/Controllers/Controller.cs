@@ -63,10 +63,10 @@ namespace Goudkoorts
         public void MakeGUI()
         {
             View.print(Game, move);
-            Wisselen();
+            Switch();
         }
 
-        public void Wisselen()
+        public void Switch()
         {
             int inputkey;
             int index = 0;

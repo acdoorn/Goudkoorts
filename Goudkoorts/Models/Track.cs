@@ -8,17 +8,15 @@ namespace Goudkoorts
 {
     public class Track
     {
-        Direction direction;
         public Cart Cart;
         public Track Next;
         public int Index;
         public String Type { get; set; }
-        public String Display;
+        public String display = "-";
 
         public Track()
         {
             Type = "Track";
-            Display = "-";
         }
 
         public Track(int index, String displaytext)
@@ -30,7 +28,23 @@ namespace Goudkoorts
             {
                 displaytext = "-";
             }
-            Display = displaytext;
+            display = displaytext;
         }
+
+        public String Display
+        {
+
+            get
+            {
+                if (Cart != null)
+                {
+                    return "X";
+                }
+                return display;
+
+            }
+            set { display = value; }
+        }
+
     }
 }

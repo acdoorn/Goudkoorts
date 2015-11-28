@@ -41,26 +41,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cart.cs" />
-    <Compile Include="Controller.cs" />
-    <Compile Include="Direction.cs" />
-    <Compile Include="Dock.cs" />
-    <Compile Include="Exception_CantMoveCart.cs" />
-    <Compile Include="Game.cs" />
-    <Compile Include="Position.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Models\Cart.cs" />
+    <Compile Include="Controllers\Controller.cs" />
+    <Compile Include="Models\Dock.cs" />
+    <Compile Include="Exceptions\Exception_CantMoveCart.cs" />
+    <Compile Include="Models\Game.cs" />
+    <Compile Include="Enums\Position.cs" />
+    <Compile Include="Controllers\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Ship.cs" />
-    <Compile Include="Start.cs" />
-    <Compile Include="Track.cs" />
-    <Compile Include="TrackContainer.cs" />
-    <Compile Include="TrackSwitch.cs" />
-    <Compile Include="TrackType.cs" />
-    <Compile Include="View.cs" />
+    <Compile Include="Models\Ship.cs" />
+    <Compile Include="Models\Start.cs" />
+    <Compile Include="Models\Track.cs" />
+    <Compile Include="Models\TrackContainer.cs" />
+    <Compile Include="Models\TrackSwitch.cs" />
+    <Compile Include="Enums\TrackType.cs" />
+    <Compile Include="Views\View.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
