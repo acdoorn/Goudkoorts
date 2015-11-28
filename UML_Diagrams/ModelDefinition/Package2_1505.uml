@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="a1a90a89-b844-48a1-9b45-a0a5f2d4818d"
+  name="Domain" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <suppliersInternal>
+    <dependency
+      Id="80b62253-a655-4a92-bfbe-f57f0c586381">
+      <packageMoniker
+        Id="e991e625-8d3a-44e5-83b4-e5b1ce68aa93"
+        LastKnownName="Views"
+        LastKnownLocation="Package_1505.uml" />
+    </dependency>
+    <dependency
+      Id="af45c87e-bfd8-43c8-b0bb-da399f8eaa1c">
+      <packageMoniker
+        Id="5bb9c070-f874-40c6-8552-dcd737026bbc"
+        LastKnownName="Controllers"
+        LastKnownLocation="Package1_1505.uml" />
+    </dependency>
+  </suppliersInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="0dbee165-4ae3-4d11-81db-b2e117c4487c"
+        name="TrackContainer"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="abae2659-0cee-46d7-b792-ea2b5c20bebe"
+        name="Track"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="76e8c8a8-184d-4b60-a45b-8003e5ba68ed"
+        name="Cart"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4fb730e2-b7f4-4148-befd-f7d834c7f91f"
+        name="Ship"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="87a9c2f4-68a0-4e9c-93e9-2bb6abb5e94f"
+        name="Game"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

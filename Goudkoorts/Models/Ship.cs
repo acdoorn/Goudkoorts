@@ -11,5 +11,17 @@ namespace Goudkoorts
         public int Inventory = 0;
         public int Room = 8;
 
+
+        public Boolean isFull()
+        {
+            if(Inventory >= Room)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

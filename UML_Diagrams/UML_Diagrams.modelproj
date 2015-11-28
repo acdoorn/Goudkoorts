@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8f9532d9-7aa6-41c1-9eda-417001544b96}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>UML_Diagrams</Name>
+    <RootNamespace>UML_Modellen</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Content Include="KD_Models.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="KD_Models.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>KD_Models.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="KD_Track_Inheritance.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="KD_Track_Inheritance.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>KD_Track_Inheritance.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="KD_VOLLEDIG.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="KD_VOLLEDIG.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>KD_VOLLEDIG.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="AKD_Meerlagenarchitectuur.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="AKD_Meerlagenarchitectuur.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>AKD_Meerlagenarchitectuur.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="KD_Exceptions.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="KD_Exceptions.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>KD_Exceptions.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="SD1_TimeHandler.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="SD1_TimeHandler.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>SD1_TimeHandler.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="SD2_MoveCarts.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="SD2_MoveCarts.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>SD2_MoveCarts.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="SD3_CheckDocks.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="SD3_CheckDocks.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>SD3_CheckDocks.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="SD4_AddCart.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="SD4_AddCart.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>SD4_AddCart.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="SD5_Switch.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="SD5_Switch.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>SD5_Switch.sequencediagram</DependentUpon>
+    </Content>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="ModelDefinition\Package1_1505.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_1505.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1459.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1505.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1508.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\UML_Modellen.uml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+</Project>

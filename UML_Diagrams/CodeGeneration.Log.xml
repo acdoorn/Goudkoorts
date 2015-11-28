@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2014-10-26T18:09:46" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2014-10-26T18:09:46" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2014-10-26T18:09:46" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2014-10-26T18:09:46" Importance="Diagnostic" Text="ProjectPath = ..\UML_ModellenLib\UML_ModellenLib.csproj" />
+  <Message Timestamp="2014-10-26T18:09:46" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2014-10-26T18:09:46" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2014-10-26T18:09:46" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2014-10-26T18:09:46" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2014-10-26T18:09:46" Importance="Medium" Text="UML_Modellen's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'UML_Modellen::Kar' -  (Class), 'UML_Modellen::Schip' -  (Class), 'UML_Modellen::BaanVak' -  (Class), 'UML_Modellen::Spel' -  (Class), 'UML_Modellen::Baan' -  (Class) " />
+  <Message Timestamp="2014-10-26T18:09:49" Importance="Medium" Text="Project Added: C:\Users\Kenneth\Desktop\MODL3\modl3-eindopdracht\UML_ModellenLib\UML_ModellenLib.csproj" />
+  <Message Timestamp="2014-10-26T18:09:49" Importance="Medium" Text="'UML_Modellen::Kar' -  (Class) : success (file replaced) - C:\Users\Kenneth\Desktop\MODL3\modl3-eindopdracht\UML_ModellenLib\GeneratedCode\Kar.cs" />
+  <Message Timestamp="2014-10-26T18:09:49" Importance="Medium" Text="'UML_Modellen::Schip' -  (Class) : success (file replaced) - C:\Users\Kenneth\Desktop\MODL3\modl3-eindopdracht\UML_ModellenLib\GeneratedCode\Schip.cs" />
+  <Message Timestamp="2014-10-26T18:09:49" Importance="Medium" Text="'UML_Modellen::BaanVak' -  (Class) : success (file replaced) - C:\Users\Kenneth\Desktop\MODL3\modl3-eindopdracht\UML_ModellenLib\GeneratedCode\BaanVak.cs" />
+  <Message Timestamp="2014-10-26T18:09:50" Importance="Medium" Text="'UML_Modellen::Spel' -  (Class) : success (file replaced) - C:\Users\Kenneth\Desktop\MODL3\modl3-eindopdracht\UML_ModellenLib\GeneratedCode\Spel.cs" />
+  <Message Timestamp="2014-10-26T18:09:50" Importance="Medium" Text="'UML_Modellen::Baan' -  (Class) : success (file replaced) - C:\Users\Kenneth\Desktop\MODL3\modl3-eindopdracht\UML_ModellenLib\GeneratedCode\Baan.cs" />
+  <Message Timestamp="2014-10-26T18:09:50" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2014-10-26T18:09:50" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2014-10-26T18:09:50" Importance="Diagnostic" Text="ProjectPath = ..\UML_ModellenLib\UML_ModellenLib.csproj" />
+  <Message Timestamp="2014-10-26T18:09:50" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2014-10-26T18:09:50" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2014-10-26T18:09:50" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2014-10-26T18:09:50" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2014-10-26T18:09:50" Importance="Medium" Text="UML_Modellen's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'UML_Modellen::Kar' -  (Class), 'UML_Modellen::Schip' -  (Class), 'UML_Modellen::BaanVak' -  (Class), 'UML_Modellen::Spel' -  (Class), 'UML_Modellen::Baan' -  (Class) " />
+  <Message Timestamp="2014-10-26T18:09:50" Importance="Diagnostic" Text="'UML_Modellen::Kar' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2014-10-26T18:09:50" Importance="Diagnostic" Text="'UML_Modellen::Schip' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2014-10-26T18:09:51" Importance="Diagnostic" Text="'UML_Modellen::BaanVak' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2014-10-26T18:09:51" Importance="Diagnostic" Text="'UML_Modellen::Spel' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2014-10-26T18:09:51" Importance="Diagnostic" Text="'UML_Modellen::Baan' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2014-10-26T18:09:51" Importance="Diagnostic" Text="The selection included 5 elements which were not bound to a template." />
+  <Message Timestamp="2014-10-26T18:09:51" Importance="Diagnostic" Text="'UML_Modellen::' -  (Association): no bound template." />
+  <Message Timestamp="2014-10-26T18:09:51" Importance="Diagnostic" Text="'UML_Modellen::' -  (Association): no bound template." />
+  <Message Timestamp="2014-10-26T18:09:51" Importance="Diagnostic" Text="'UML_Modellen::' -  (Association): no bound template." />
+  <Message Timestamp="2014-10-26T18:09:51" Importance="Diagnostic" Text="'UML_Modellen::' -  (Association): no bound template." />
+  <Message Timestamp="2014-10-26T18:09:51" Importance="Diagnostic" Text="'UML_Modellen::' -  (Association): no bound template." />
+  <Message Timestamp="2014-10-26T18:09:51" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>

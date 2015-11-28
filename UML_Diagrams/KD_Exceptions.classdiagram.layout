@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLClassDiagram1">
+  <logicalClassDesignerModelMoniker Id="b9e24504-7732-4a2f-ae09-14a87c850c52" />
+  <nestedChildShapes>
+    <classShape Id="753ec4f8-2585-4d37-93cb-07360db3d3ba" isExpanded="false" absoluteBounds="1.625, 2.375, 2.5, 0.5" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="570fdc17-7679-4fc9-bdd2-92e8c596e1ef" LastKnownName="Exception_CantMoveCart" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="802edad7-1214-4205-9bd4-5af48e56aefb" absoluteBounds="1.6400000000000001, 2.765, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="08b644d0-a712-4ae1-94a5-871f60983ed6" absoluteBounds="1.6400000000000001, 2.9761718675494193, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <commentShape Id="944e74d6-2fae-4837-8a1c-30a45d57049e" absoluteBounds="4.25, 2.375, 1.75, 0.5" customColor="251, 247, 200">
+      <commentMoniker Id="f947d5fa-5134-4ea6-95e6-a8355756b05b" />
+      <relativeChildShapes />
+    </commentShape>
+    <classShape Id="9633528c-bfcd-48f8-86a9-2d3a8bf38280" absoluteBounds="6.375, 0.75, 2.625, 3.4300230499108633" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="8ed091b2-ec10-4703-8c82-1c013637a208" LastKnownName="Game" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="6e46d067-3e7d-490a-bcac-746f20d83655" absoluteBounds="6.39, 1.2653356393178306, 2.5949999999999998, 1.6425780728459358" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="5f2f92cb-b631-49c5-b1ef-6c676edc9a89" absoluteBounds="6.39, 2.9179137121637662, 2.5949999999999998, 1.162109337747097" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

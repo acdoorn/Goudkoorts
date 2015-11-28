@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="5bb9c070-f874-40c6-8552-dcd737026bbc"
+  name="Controllers" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <suppliersInternal>
+    <dependency
+      Id="c7b20b16-b068-4b06-9057-747ddcae221c">
+      <packageMoniker
+        Id="e991e625-8d3a-44e5-83b4-e5b1ce68aa93"
+        LastKnownName="Views"
+        LastKnownLocation="Package_1505.uml" />
+    </dependency>
+    <dependency
+      Id="8f90b7da-35dd-4935-a677-122ba2c6e43f">
+      <packageMoniker
+        Id="a1a90a89-b844-48a1-9b45-a0a5f2d4818d"
+        LastKnownName="Domain"
+        LastKnownLocation="Package2_1505.uml" />
+    </dependency>
+  </suppliersInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="416776a8-7f4a-448c-bf4a-9de6119982f2"
+        LastKnownName="Program"
+        LastKnownLocation="Package_1508.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b853af79-26ba-4945-ac50-f5bc01d2ea47"
+        name="Controller"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="29142a22-b6ff-4beb-a54f-5fc1b8b72bdd"
+        name="Program"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
