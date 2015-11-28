@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Goudkoorts
 {
-    class Dock : Track
+    public class Dock : Track
     {
         public Ship Ship;
         public bool hasShip()

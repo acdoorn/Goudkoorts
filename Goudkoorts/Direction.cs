@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Goudkoorts
 {
-    enum Direction
+    public enum Direction
     {
         left, right, up, down
     }

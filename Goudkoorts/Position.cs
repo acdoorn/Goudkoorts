@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Goudkoorts
 {
-    enum Position
+    public enum Position
     {
         Up, Down
     }

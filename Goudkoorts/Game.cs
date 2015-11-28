@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Goudkoorts
 {
-    class Game
+    public class Game
     {
         private Controller controller;
-        public List<Cart> Cartren;
+        public List<Cart> Carts;
 
         public bool IsOver { get; set; }
         public int Points { get; set; }
@@ -22,7 +22,7 @@ namespace Goudkoorts
         public Game(Controller controller)
         {
             this.controller = controller;
-            Cartren = new List<Cart>();
+            Carts = new List<Cart>();
             IsOver = false;
             Level = 1;
             addInTurn = 1;
@@ -39,11 +39,11 @@ namespace Goudkoorts
             Track Track2 = TrackContainer.SearchIndex(44);
             Dock Dock2 = (Dock)Track2;
 
-            DockControlleren(Dock1);
-            DockControlleren(Dock2);
+            CheckDock(Dock1);
+            CheckDock(Dock2);
         }
 
-        public void DockControlleren(Dock Dock)
+        public void CheckDock(Dock Dock)
         {
             if (!Dock.hasShip())
             {
@@ -71,7 +71,7 @@ namespace Goudkoorts
                 Track track = TrackContainer.SearchIndex(randomNumber);
                 // Index zetten, zodat we adhv lijst Cartren weten waar Cart staat
                 Cart Cart = new Cart { Index = randomNumber };
-                Cartren.Add(Cart);
+                Carts.Add(Cart);
                 track.Cart = Cart;
                 addInTurn = 1;
             }
@@ -88,7 +88,7 @@ namespace Goudkoorts
             List<Cart> delete = new List<Cart>();
             Track next = null;
 
-            foreach (Cart Cart in Cartren)
+            foreach (Cart Cart in Carts)
             {
 
                 // TrackContainervak zoeken
@@ -181,7 +181,7 @@ namespace Goudkoorts
             // Remove Cartren from Cartren outside foreach loop
             foreach (Cart Cart in delete)
             {
-                Cartren.Remove(Cart);
+                Carts.Remove(Cart);
             }
         }
 
@@ -200,12 +200,12 @@ namespace Goudkoorts
                 }
                 else
                 {
-                    throw new Exception_KanCartNietVerplaatsen();
+                    throw new Exception_CantMoveCart();
                 }
             }
         }
 
-        public void MoeilijkheidsgraadToepassen()
+        public void changeLevel()
         {
             if (Points >= 30 && Points <= 59)
             {

@@ -20,7 +20,6 @@ namespace Goudkoorts
                 printTrack(g.TrackContainer);
                 Console.WriteLine("─────────────────────────────────");
                 Console.WriteLine(" Press a key between 1 and 5 to activate a switch!");
-                
             }
         
             public void printTrack(TrackContainer t)
@@ -73,9 +72,9 @@ namespace Goudkoorts
                     if (tr.GetType().Name == "Dock")
                     {
                         Dock dock = (Dock)tr;
-                        if (Dock.hasShip())
+                        if (dock.hasShip())
                         {
-                            Console.Write(tr.Display + " (schip  " + dock.Ship.Content + "/" + dock.Ship.MaxContent + ")");
+                            Console.Write(tr.Display + " (schip  " + dock.Ship.Inventory + "/" + dock.Ship.Room + ")");
                         }
                         else
                         {

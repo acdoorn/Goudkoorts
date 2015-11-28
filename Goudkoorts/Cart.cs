@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Goudkoorts
 {
-    class Cart
+    public class Cart
     {
         public bool loaded;
         public int Index;

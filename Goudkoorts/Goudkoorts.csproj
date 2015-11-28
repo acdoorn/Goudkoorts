@@ -45,6 +45,7 @@
     <Compile Include="Controller.cs" />
     <Compile Include="Direction.cs" />
     <Compile Include="Dock.cs" />
+    <Compile Include="Exception_CantMoveCart.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="Position.cs" />
     <Compile Include="Program.cs" />
@@ -55,6 +56,7 @@
     <Compile Include="TrackContainer.cs" />
     <Compile Include="TrackSwitch.cs" />
     <Compile Include="TrackType.cs" />
+    <Compile Include="View.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

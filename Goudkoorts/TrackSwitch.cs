@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Goudkoorts
 {
-    class TrackSwitch : Track
+    public class TrackSwitch : Track
     {
 
         public TrackType TrackType;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Goudkoorts
 {
-    class Track
+    public class Track
     {
         Direction direction;
         public Cart Cart;

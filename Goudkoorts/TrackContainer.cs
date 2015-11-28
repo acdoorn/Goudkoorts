@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Goudkoorts
 {
-    class TrackContainer
+    public class TrackContainer
     {
         
 	public int TrackAmount { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Goudkoorts
 {
-    enum TrackType
+    public enum TrackType
     {
         TwoInOneOut, OneInTwoOut
     }

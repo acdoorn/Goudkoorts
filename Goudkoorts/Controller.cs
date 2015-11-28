@@ -105,7 +105,7 @@ namespace Goudkoorts
         public void timerHandler(object source, ElapsedEventArgs e)
         {
             // MOEILIJKHEIDSGRAAD
-            Game.MoeilijkheidsgraadToepassen();
+            Game.changeLevel();
 
             // move
             if (move == 0)

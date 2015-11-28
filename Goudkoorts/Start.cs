@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Goudkoorts
 {
-    class Start : Track
+    public class Start : Track
     {
     }
 }

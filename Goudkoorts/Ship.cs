@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Goudkoorts
 {
-    class Ship
+    public class Ship
     {
+        public int Inventory = 0;
+        public int Room = 8;
 
     }
 }
