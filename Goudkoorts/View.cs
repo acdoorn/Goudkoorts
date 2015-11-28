@@ -14,8 +14,8 @@ namespace Goudkoorts
             {
                 Console.Clear();
                 Console.WriteLine(" **************   **************   **************   **************");
-                Console.WriteLine(" * Goldfever  *   * Points: " + g.Points.ToString().PadLeft(3) + " *   * Time: " + countdown + "     *   * Level:  " + g.Level + "   *");
-                Console.WriteLine(" **************   **************   **************  **************");
+                Console.WriteLine(" * Goldfever  *   * Points: " + g.Points.ToString().PadLeft(3) + "*   * Time: " + countdown + "    *   * Level:  " + g.Level + "  *");
+                Console.WriteLine(" **************   **************   **************   **************");
                 Console.WriteLine("─────────────────────────────────");
                 printTrack(g.TrackContainer);
                 Console.WriteLine("─────────────────────────────────");
@@ -74,7 +74,7 @@ namespace Goudkoorts
                         Dock dock = (Dock)tr;
                         if (dock.hasShip())
                         {
-                            Console.Write(tr.Display + " (schip  " + dock.Ship.Inventory + "/" + dock.Ship.Room + ")");
+                            Console.Write(tr.Display + " <[Ship  " + dock.Ship.Inventory + "/" + dock.Ship.Room + "]>");
                         }
                         else
                         {

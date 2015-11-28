@@ -18,12 +18,18 @@ namespace Goudkoorts
         public Track()
         {
             Type = "Track";
+            Display = "-";
         }
 
         public Track(int index, String displaytext)
         {
             Type = "Track";
             Index = index;
+
+            if (displaytext == null)
+            {
+                displaytext = "-";
+            }
             Display = displaytext;
         }
     }
