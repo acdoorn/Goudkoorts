@@ -19,6 +19,7 @@ namespace Goudkoorts
     {
         TrackAmount = 44;
         this.Add();
+        
     }
 
     public Track SearchIndex(int key)

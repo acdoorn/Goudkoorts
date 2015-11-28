@@ -22,8 +22,7 @@ namespace Goudkoorts
      */
     public class Controller
     {
-        private OutputView oView;
-        private InputView iView;
+        private View View;
         private Game Game;
         private Timer timer;
         private int move = 1;
@@ -31,8 +30,8 @@ namespace Goudkoorts
 
         public Controller()
         {
-            oView = new OutputView();
-            iView = new InputView();
+            View = new View();
+          
             Game = new Game(this);
         }
 
@@ -63,7 +62,7 @@ namespace Goudkoorts
 
         public void MakeGUI()
         {
-            oView.print(Game, move);
+            View.print(Game, move);
             Wisselen();
         }
 
@@ -74,9 +73,9 @@ namespace Goudkoorts
 
             while (!Game.IsOver)
             {
-                //oView.print(Game.Baan);
+           
                 // Vraag om user input
-                inputkey = iView.GetInput();
+                inputkey = this.getInput();
 
                 switch (inputkey)
                 {
@@ -133,6 +132,27 @@ namespace Goudkoorts
 
             // GUI BOUWEN
             MakeGUI();
+        }
+
+        public int getInput()
+        {
+            bool wait = true;
+            int input = 0;
+            while (wait)
+            {
+                var key = Console.ReadKey(true);
+                if ("12345".Contains(key.KeyChar))
+                {
+                    Int32 number;
+                    if (Int32.TryParse(key.KeyChar.ToString(), out number))
+                    {
+                        input = number;
+                        wait = false;
+                    }
+                }
+            }
+           
+            return input;
         }
     }
 }

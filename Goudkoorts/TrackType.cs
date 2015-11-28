@@ -8,6 +8,6 @@ namespace Goudkoorts
 {
     enum TrackType
     {
-        TwoInOneOut, OneInTwoOut;
+        TwoInOneOut, OneInTwoOut
     }
 }
